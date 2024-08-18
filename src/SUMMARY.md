@@ -1,5 +1,7 @@
 # Summary
 
 [Home](home.md)
-
-- [Chapter 1](./chapter_1.md)
+[Projects](./projects/projects.md)
+[Services](./services/services.md)
+[Learning and Achivments](./learning_and_achivments/learning_and_achivments.md)
+[Contact](./contact/contact.md)
