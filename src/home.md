@@ -1,9 +1,5 @@
 # Home
 
-<div class="warning">
-<h1 style="color:RED; text-transform:uppercase;">This Page is Under Development</h1>
-</div>
-
 ## Welcome to Digital Craft Design
 Hello, I'm Mohammad Ahmad ALhamad, an experienced electronics technician and the creator of this site. Digital Craft Design is your gateway to discovering my work and the range of services I offer.
 
