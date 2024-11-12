@@ -1,0 +1,36 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-11-12T16:04:38.806183"><title>Use semantic attributes in Markdown | Help Instance</title><script type="application/json" id="virtual-toc-data">[{"id":"headings","level":0,"title":"Headings","anchor":"#headings"},{"id":"admonition-blocks","level":0,"title":"Admonition blocks","anchor":"#admonition-blocks"},{"id":"code-blocks","level":0,"title":"Code blocks","anchor":"#code-blocks"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b518/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Use semantic attributes in Markdown | Help Instance"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Help Instance Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/play-with-semantic-attributes.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Use semantic attributes in Markdown | Help Instance"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/play-with-semantic-attributes.html#webpage",
+    "url": "writerside-documentation/play-with-semantic-attributes.html",
+    "name": "Use semantic attributes in Markdown | Help Instance",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Help Instance Help"
+}</script><!-- End Schema.org --></head><body data-id="Play-with-semantic-attributes" data-main-title="Use semantic attributes in Markdown" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs=""><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Help Instance  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Play-with-semantic-attributes" id="Play-with-semantic-attributes.md">Use semantic attributes in Markdown</h1><p id="q5je2p_3">Semantic attributes let you adjust the behavior and appearance of various elements.</p><section class="chapter"><h2 id="headings" data-toc="headings">Headings</h2><p id="q5je2p_7">Add <code class="code" id="q5je2p_9">{collapsible=&quot;true&quot;}</code> after the heading above to make the whole chapter collapsible. Add the <code class="code" id="q5je2p_10">default-state</code> attribute and set its value to <code class="code" id="q5je2p_11">expanded</code> to render the chapter as expanded by default.</p><div class="code-block" data-lang="none">
+## Headings {collapsible=&quot;true&quot; default-state=&quot;expanded&quot;}
+</div></section><section class="chapter"><h2 id="admonition-blocks" data-toc="admonition-blocks">Admonition blocks</h2><p id="q5je2p_12">Markdown blockquotes render as tips with a grey background by default:</p><aside class="prompt" data-type="tip" data-title="" id="q5je2p_13"><p id="q5je2p_16">Some important information</p></aside><p id="q5je2p_14">Add <code class="code" id="q5je2p_17">{style=&quot;note&quot;}</code> after the blockquote to render it as a note against a green background. Or add <code class="code" id="q5je2p_18">{style=&quot;warning&quot;}</code> to render a warning against a red background.</p><div class="code-block" data-lang="none">
+&gt; Some important information
+&gt;
+{style=&quot;warning&quot;}
+</div></section><section class="chapter"><h2 id="code-blocks" data-toc="code-blocks">Code blocks</h2><p id="q5je2p_19">By default, code blocks render with no highlighting, as plain text.</p><div class="code-block" data-lang="none">
+&lt;deflist&gt;
+    &lt;def title=&quot;Instance&quot;&gt;
+        &lt;include from=&quot;snippets-library.topic&quot; element-id=&quot;instance&quot;/&gt;
+    &lt;/def&gt;
+&lt;/deflist&gt;
+</div><p id="q5je2p_21">Specify a language for the code sample to render it with proper highlighting. In this case, add <code class="code" id="q5je2p_24">xml</code> after the opening backticks.</p><div class="code-block" data-lang="none">
+    ```xml
+    &lt;deflist&gt;
+        &lt;def title=&quot;Instance&quot;&gt;
+            &lt;include from=&quot;snippets-library.topic&quot; element-id=&quot;instance&quot;/&gt;
+        &lt;/def&gt;
+    &lt;/deflist&gt;
+    ```
+</div><aside class="prompt" data-type="note" data-title="" id="q5je2p_23"><p id="q5je2p_25">Highlighting support in the local preview depends on the language support. If you need Java, Kotlin, or Python highlighting, install and enable the corresponding IntelliJ plugin.</p></aside></section><div class="last-modified">Last modified: 12 November 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="default-topic.html" class="navigation-links__prev">This is the first topic</a><a href="add-semantic-elements-to-markdown.html" class="navigation-links__next">Add semantic elements to Markdown</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b518/app.js"></script></body></html>
