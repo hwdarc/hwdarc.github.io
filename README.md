@@ -1,1 +1,2 @@
-# Hardware Architecture
+# Hardware-arc
+## Hardware Architecture
