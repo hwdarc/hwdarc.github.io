@@ -1,1 +1,1 @@
-# Digital Craft Design
+# Hardware Architecture
