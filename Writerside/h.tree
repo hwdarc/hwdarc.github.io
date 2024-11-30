@@ -7,4 +7,5 @@
                  start-page="hwdarc.topic">
 
     <toc-element topic="hwdarc.topic"/>
+    <toc-element topic="Projects.md"/>
 </instance-profile>
